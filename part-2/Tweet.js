@@ -1,4 +1,4 @@
-const Tweet = ({username, name, date, message}) => {
+const Tweet = ({username, name, date=new Date(), message}) => {
     const dateToString = date.toDateString()
 
     return (
